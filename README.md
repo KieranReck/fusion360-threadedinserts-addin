@@ -33,10 +33,6 @@ This adds a custom panel to your configured location:
 
 ## Configuring the Add In
 
-https://github.com/user-attachments/assets/ca4b1476-b2ab-4a41-87e1-eb9bf6544447
-
-
-
 Configuration changes are applied directly to the add in's main script by opening `ThreadedInserts/ThreadedInserts.py` in a text editor. The two most common changes have been moved to the top of the file for ease:
 ```
 # --------- CONFIGURATION ----------------------------------------------------
