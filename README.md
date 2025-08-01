@@ -3,13 +3,18 @@
 An Autodesk Fusion / Fusion360 add-in for managing threaded insert workflows. This tool helps teams identify and mark threaded insert holes using unique diameter parameters and applying a visual appearance.
 
 ![Custom Panel Shown In Utilities Ribon](./Screenshots/UtilitiesRibon.png)
+
+https://github.com/user-attachments/assets/337ea7f5-0e4b-4b56-ae30-c88b549de58b
+
 ## Overview
 
 This add-in provides two main functions:
 1. **Add Insert Parameters** - Adds user parameters for your commonly used Heat Set Threaded Insert diameters
-    ![Insert Parameters Button](./ThreadedInserts/resources/AddParams/32x32.svg)
+
+   ![Insert Parameters Button](./ThreadedInserts/resources/AddParams/32x32.svg)
+   
 2. **Apply Insert Appearance** - Applies "Brass - Matte" appearance to the inner edge of threaded insert holes for visual identification
-    
+
     ![Insert Parameters Button](./ThreadedInserts/resources/ApplyAppearance/32x32.svg)
 
 
@@ -27,6 +32,10 @@ This adds a custom panel to your configured location:
 ![Custom Panel](./Screenshots/Panel.png)
 
 ## Configuring the Add In
+
+https://github.com/user-attachments/assets/ca4b1476-b2ab-4a41-87e1-eb9bf6544447
+
+
 
 Configuration changes are applied directly to the add in's main script by opening `ThreadedInserts/ThreadedInserts.py` in a text editor. The two most common changes have been moved to the top of the file for ease:
 ```
