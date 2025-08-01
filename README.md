@@ -1,6 +1,6 @@
 # Threaded Insert Add-in for Fusion 360
 
-An Autodesk Fusion / Fusion360 add-in for managing threaded insert workflows. This tool helps teams identify and mark threaded insert holes using unique diameter parameters and applying a visual appearance.
+A vibe coded Autodesk Fusion / Fusion360 add-in for managing threaded insert workflows. This tool helps teams identify and mark threaded insert holes using unique diameter parameters and applying a visual appearance.
 
 ![Custom Panel Shown In Utilities Ribon](./Screenshots/UtilitiesRibon.png)
 
@@ -85,6 +85,8 @@ Note: dont end your dimensions in `x.xx0001`, eg ("3.200001"), this puts the dim
 2. The add-in automatically finds all holes matching threaded insert diameters
 3. Applies "Brass - Matte" appearance to the inner cylindrical surfaces
 4. Provides summary of how many holes were marked
+
+![Appearance Applied To Holes](./Screenshots/AppearanceApplied.png)
 
 
 ## Features
