@@ -46,8 +46,8 @@ TARGET_TAB_ID = 'ToolsTab'    # Places panel in UTILITIES tab (workflow tools)
 # Define your threaded insert configurations (name, diameter_mm, description):
 
 THREADED_INSERT_CONFIGS = [
-    ('M3_Insert', 3.200099, 'M3 threaded insert diameter'),
-    ('M4_Insert', 4.250099, 'M4 threaded insert diameter'),
+    ('M2_Insert', 3.200099, 'M3 threaded insert diameter'),
+    ('M3_Insert', 4.250099, 'M4 threaded insert diameter'),
     # Add more insert sizes as needed: ('Parameter_Name', diameter_in_mm, 'Description')
 ]
 
@@ -69,8 +69,8 @@ Note: dont end your dimensions in `x.xx0001`, eg ("3.200001"), this puts the dim
 1. Open your design file in Fusion
 2. Click **"Add Insert Parameters"** button in the Threaded Inserts panel
     - The add-in then creates a user parameter for each of your threaded insert diameters:
-    - `M3_Insert = 3.200099 mm`
-    - `M4_Insert = 4.250099 mm`
+    - `M2_Insert = 3.200099 mm`
+    - `M3_Insert = 4.250099 mm`
     - ....
 
     ![Parameters Added Dialog](./Screenshots/ParamsDialog.png)

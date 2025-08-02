@@ -21,8 +21,8 @@ TARGET_TAB_ID = 'ToolsTab'    # Places panel in UTILITIES tab (workflow tools)
 # Define your threaded insert configurations (name, diameter_mm, description):
 
 THREADED_INSERT_CONFIGS = [
-    ('M3_Insert', 3.200099, 'M3 threaded insert diameter'),
-    ('M4_Insert', 4.250099, 'M4 threaded insert diameter'),
+    ('M2_Insert', 3.200099, 'M3 threaded insert diameter'),
+    ('M3_Insert', 4.250099, 'M4 threaded insert diameter'),
     # Add more insert sizes as needed: ('Parameter_Name', diameter_in_mm, 'Description')
 ]
 
